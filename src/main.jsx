@@ -1,10 +1,19 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
+//import react from 'react'
+//import react dom from 'react-dom/client
+//import { BrowserRouter } from 'react-router-dom'
+//import './styles/globals.css
+//import { CardsProvider } from './context/CardsContext.jsx'
 import './index.css'
 import App from './App.jsx'
 
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
-)
+/* ReactDOM.createRoot(document.getElementById('root')).render(
+<React.StrictMode>
+  <BrowserRouter>
+    <CardsProvider>
+      <App />
+    </CardsProvider>
+  </BrowserRouter>
+</React.StrictMode>
+) */
+
+
