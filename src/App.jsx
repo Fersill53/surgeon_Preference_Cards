@@ -1,35 +1,22 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+/*
+import {Routes, Route} from 'react-router-dom'
+import Navbar from './components/Navbar.jsx'
+import Home from './pages/Home/Home.jsx'
+import EditCards from './pages/EditCards/EditCards.jsx;
+import ViewCards from './pages/ViewCards/ViewCards.jsx'
+import QuickView from './pages/QuickView.jsx'
 
-function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
-
-export default App
+export default function App() {
+return (
+  <>
+    <Navbar />
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/cards/add" element={<AddCard />} />
+      <Route path="/cards/edit" element={<EditCards />} />
+      <Route path="/cards/view" element={<ViewCards />} />
+      <Route path="/cards/quick-view" element={<ViewCards />} />
+    </Routes>
+  </>
+)
+  }
