@@ -18,5 +18,5 @@ return (
       <Route path="/cards/quick-view" element={<ViewCards />} />
     </Routes>
   </>
-)
-  }
+  )
+}
