@@ -1,4 +1,4 @@
-/*
+
 import styels from './Home.modules.css'
 
 export default function Home() {
@@ -11,13 +11,13 @@ return (
 
         <div className="section">
             <h2>What's inside</h2>
-            <ul className-{styles.list}>
+            <ul className={styles.list}>
                 <li>New Card - create fully structured card</li>
                 <li> Edit Cards - update or remove existing cards</li>
-                <li>View Cards - brouwse full details<li>
+                <li>View Cards - browse full details</li>
                 <li>Quick Veiw - table of essentials (Surgeon, Procedure, gloves, instruments, sutrues, notes)</li>
             </ul>
         </div>
     </div>
     )
-} */
+}
