@@ -14,7 +14,7 @@ export function CardsProvider({ children }) {
 
 const createCard = (data) => {
     const card = {
-    id: nanoid()
+    id: nanoid(),
     surgeonName: '',
     procedureName: '',
     gloveSize: '',
