@@ -1,9 +1,9 @@
-/*
+
 import { createContext, useContext, useEffect, useMemo, useState } from 'react'
 import { loadCards, saveCards } from '../utils/storage'
 import { nanoid } from 'nanoid'
 
-cosnt CardsContext = createContext(null)
+const CardsContext = createContext(null)
 
 export function CardsProvider({ children }) {
     const [cards, setCards] = useState(() => loadCards())
@@ -40,8 +40,8 @@ const createCard = (data) => {
         cards, setCards, createCard, updateCard, deleteCard
         }), [cards])
 
-    return <Cards.Context.Provider value={value}>{children}</CardsContext.Provider>
+    return <CardsContext.Provider value={value}>{children}</CardsContext.Provider>
 
 }
 
-exprot const userCards = () => useCOntext(CardsContext) */
+export const userCards = () => useCOntext(CardsContext) 
