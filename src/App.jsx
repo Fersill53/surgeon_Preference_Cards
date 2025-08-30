@@ -1,8 +1,8 @@
-/*
+
 import {Routes, Route} from 'react-router-dom'
 import Navbar from './components/Navbar.jsx'
 import Home from './pages/Home/Home.jsx'
-import EditCards from './pages/EditCards/EditCards.jsx;
+import EditCards from './pages/EditCards/EditCards.jsx';
 import ViewCards from './pages/ViewCards/ViewCards.jsx'
 import QuickView from './pages/QuickView.jsx'
 
@@ -20,4 +20,3 @@ return (
   </>
   )
 }
-*/
