@@ -1,0 +1,21 @@
+.form {
+    display: grid;
+    gap: 1rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 0.8rem;
+}
+
+.rows {
+    display: grid;
+    gap: .5rem;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: .5rem;
+}
